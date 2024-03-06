@@ -11,6 +11,10 @@ body{
     overflow-y: auto;
 }
 
+.mainBorder{
+    @apply border-blue-500;
+}
+
 .slide-fade-enter-active {
     transition: all 0.3s ease-out;
     transition-delay: .8s;

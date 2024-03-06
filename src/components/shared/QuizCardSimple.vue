@@ -1,6 +1,6 @@
 <template>
   <div
-      :class="isActive ? 'border-blue-400' : 'opacity-75'"
+      :class="isActive ? 'mainBorder' : 'opacity-75'"
       class="bg-white rounded-lg cursor-pointer hover:bg-gray-50 hover:shadow-lg shadow border-2  border-transparent duration-100"
   >
     <div class="max-w-sm rounded  flex gap-2  items-center p-3">
